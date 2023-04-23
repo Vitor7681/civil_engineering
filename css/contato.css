@@ -1,0 +1,154 @@
+    :root {
+    --color-prymary: #4c60d4;
+    }
+
+    html {
+    font-family: "Lato", Helvetica, Arial, Lucida, sans-serif !important;
+    }
+
+    header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #4c60d4;
+    z-index: 2;
+    }
+  
+  .faixa-contato {
+    background-color: #333333;
+    color: rgba(255, 255, 255, 0.952);
+    display: flex;
+    font-weight: bold;
+    gap: 10px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+  }
+  
+  div.menu {
+    background-color: white;
+    box-sizing: border-box;
+    display: block;
+    height: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .menu img {
+    width: 180px;
+  }
+  
+  .menu nav {
+    float: right;
+  }
+  
+  .menu a {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    color: rgba(0, 0, 0, 0.6);
+    display: inline;
+    line-height: 80px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+    .fundo {
+      background-image: linear-gradient(
+        180deg,
+        rgba(185, 159, 159, 0.384) 0%,
+        rgba(3, 0, 76, 0.575) 100%
+      ),
+      url("../images/engenharia2.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgba(255, 255, 255, 0.952);
+    height: 700px;
+    padding-top: 100px;
+    padding: 100px;
+    }
+
+
+  .box{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top:50;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 15px 30px 25px 30px;
+    width: 37%;
+    margin-top: 300px;
+    font-size: 17px;
+    border-radius: 7px;
+
+}
+fieldset{
+    border: 3px outset rgba(0, 0, 0, 0.521);
+    padding: 0px 20px 20px 20px;
+
+}
+legend{
+    border: 1px solid rgba(29, 45, 66, 0.411);
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(172, 178, 187, 0.192);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 27px;
+    font-weight: bold;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    color: rgb(2, 1, 1);
+    font-size: 15px;
+    width: 100%;
+  }
+  .labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+}
+
+#data_nascimento{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    padding: 8px;
+    background-color: rgb(224, 222, 222);
+}
+#sexo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#submit{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(172, 178, 187, 0.445);
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: bold;
+}
+#submit:hover{
+   background-color:  rgba(172, 178, 187, 0.644);
+}

@@ -1,0 +1,61 @@
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  div.menu {
+    background-color: white;
+    box-sizing: border-box;
+    display: block;
+    height: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .menu img {
+    width: 180px;
+  }
+  
+  .menu nav {
+    float: right;
+  }
+  
+  .menu ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+  }
+  
+  .menu li a {
+    color: rgba(0, 0, 0, 0.6);
+    display: inline;
+    line-height: 80px;
+    text-decoration: none;
+  }
+
+  main {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(
+      180deg,
+      rgba(139, 179, 190, 0.67) 0%,
+      rgba(255, 255, 255, 0.84) 100%
+    );
+    height: 85vh;
+  }
+
+  #emoji {
+    margin-left:700px ;
+    width: 130px;
+    height: 130px;
+    margin-top: 170px;
+  }
+
+  p {
+    font-size: 30px;
+    text-align: justify;
+    float: right;
+    margin-top: 140px !important;
+    margin-right: 400px;
+   
+  } 
